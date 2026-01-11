@@ -15,7 +15,6 @@ export default function Jsx_ejercicio_6(){
  
     function startTimer(){
         if(intervalRef.current !== null) return
-
         intervalRef.current = setInterval(() => (
             setSegundos(prev => prev + 1)
         ), 1000);   
@@ -46,7 +45,7 @@ export default function Jsx_ejercicio_6(){
                 </h2>
 
                 <div>
-                    <p className="text-6xl font-light">
+                    <p className="text-7xl font-light">
                         {`${hh}:${mm}:${ss}`}
                     </p>
                     <div className="flex justify-between mt-10">
